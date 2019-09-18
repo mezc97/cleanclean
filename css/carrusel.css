@@ -1,0 +1,26 @@
+div.modificar{
+	display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.modificar button.btn.btn-primary {
+   
+}
+.modificar form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 32%;
+}
+.modificar input.seleccionarImg {
+    padding: 10px 0px;
+}
+.modificar img{
+	width: 150px;
+    height: auto;
+}
+button.btn.btn-outline-success.agregarImg {
+    border-radius: 40px!important;
+    width: 40px;
+    height: 40px;
+}

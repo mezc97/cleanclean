@@ -1,0 +1,605 @@
+.col-md-6{
+    padding: 0px;
+}
+.imagenPrincipal{
+	width: 100%;
+	height: 100%;
+}.col-md-6.carousel.slide pointer-event img{
+    height: 100%;}
+.tarjetaPresentacion{
+    position: absolute;
+    background: #49a509;
+    height: 40%;
+    width: 35%;
+    bottom: 0;
+    z-index: 1;
+}
+.tarjetaPresentacion h1 {
+    padding: 20px 35px;
+    margin: 0px;
+    color: #fff;
+    font-size: 25px;
+    text-align: start;
+    font-family: serif;
+}
+.tarjetaPresentacion p{
+    padding: 5px 35px;
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.tarjetaPresentacion span{
+   
+    font-size: 25px;
+    margin: 0px 35px ;
+    top: 15px;
+    position: relative;
+    color: #fff;
+}
+/*carrusel*/
+.carousel .carousel-indicators li {
+    width: .625rem;
+    height: .625rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+a.botonito{
+    margin: 35px;
+    background: #e8dede;
+    width: 30px;
+    display: flex;
+    height: 30px;
+    border-radius: 20px;
+}
+.div.row.inicio{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0px!important;
+    left: 0px!important;
+    z-index: 1;
+	padding: 0px!important;
+	margin: 0px;
+}
+.col-md-6.inicio {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+.imagenPrincipal{
+	align-items:end!important;
+}
+img.brillo
+{
+    display: flex;
+    height: 130px;
+    padding: 10px;
+    width: 130px;
+    align-self: flex-end;
+}
+button.btn.btn-primary.buy {
+    border-radius: 1px!important;
+    border: #2e5aa8;
+    background: #2e5aa8;
+}
+.espacioCleaner{
+	text-align: center;
+    justify-content: center;
+    float: right;
+    top: 0px;
+    position: relative;
+}
+.espacioCleaner h1
+{
+    padding: 40px 100px;}
+.espacioCleaner p{
+    padding: 0px 100px;
+}
+button.btn.btn-primary.infoP{
+	border-radius: 20px;
+    float: right;
+    padding: 5px 19px;
+    background: #44d6fe;
+    border: #44d6fe;
+    margin: 0px 10px
+}
+button.btn.btn-primary.infoP:hover{
+    background: #44d5fd;
+    opacity: 0.5;
+}
+button.btn.btn-primary.infoA{
+	border-radius: 20px;
+    float: left;
+    padding: 5px 19px;
+    background: #2e5aa8;
+    border: #2e5aa8;
+    margin: 0px 10px
+}
+button.btn.btn-primary.infoA:hover{
+    background: #2e5aa8;
+    opacity: 0.5;
+}
+.contenidoAbout {
+    margin: 0px 15px;
+}
+.col-md-6.needs {
+    padding: 0;
+    margin: 0;
+}
+.needs.row{
+	padding: 0px;
+    margin: 0px;
+}
+.needsDerecha{
+	float: right;
+}
+.fromFor img,h3{
+	display: inline-block;
+}
+.col-md-6.precioBusiness {
+    top: 6px;}
+.fromFor h1{
+	padding: 18px 0px 30px;
+    justify-content: start;
+    text-align: start;
+}
+.precioBusiness h3{
+    color:  #2e5aa8;	
+	text-align: end;
+	}
+.precioBusiness h1 {
+	text-align: end;
+    padding: 28px 0px;
+}
+.precioBusiness p {
+	text-align: end;}
+.precioBusinessImg{
+    float: right;}
+button.btn.btn-primary.precioBus{
+    background: #2e5aa8!important;
+    border: #2e5aa8;
+    border-radius: 1px!important;
+    margin: 20px 15px 60px!important;
+}
+button.btn.btn-primary.precioBus:hover{
+    background: #2e5aa8;
+    opacity: 0.5;
+}
+.precioHome h3 {
+    color: #44d6fe;
+    padding: 5px 30px 10px 0px;
+    float: right;
+}
+.precioHome h1 {
+    padding: 23px 0px 30px;
+}
+button.btn.btn-primary.precioHom{
+    background: #44d6fe!important;
+    border: #44d6fe;
+    border-radius: 1px!important;
+    margin: 20px 0px 60px;
+}
+button.btn.btn-primary.precioHom:hover{
+    background: #2e5aa8;
+    opacity: 0.5;
+}
+.container.fromFor {
+    padding: 70px 60px;}
+.col-md-6.servicesBlue {
+    background: #44d6fecc;}
+.col-md-6.servicesBlue h1{
+	color: #fff;
+	text-align: left;
+	padding: 50px 50px 20px;
+}
+.col-md-6.servicesBlue p{
+	line-height: 30px;
+    padding: 10px 110px 52px 50px;
+    text-align: left;
+    color: #fff;
+}
+.col-md-6.servicesMorado{
+	background: #2e5aa8c7;
+}
+.col-md-6.servicesMorado h1{
+	color: #fff;
+	text-align: right;
+	padding: 50px 50px 20px;
+}
+.col-md-6.servicesMorado p{
+	line-height: 30px;
+    padding: 10px 50px 52px 110px;
+    text-align: right;
+    color: #fff;
+}
+.servicesServices {
+	display: flex;}
+.servicesServices img.imgServices{
+	position: absolute;
+	width: 15%;
+	align-self: center;	
+}
+.ourWork h4{
+	color: #2e5aa8;
+    font-size: 15px;
+    padding: 100px 0px 20px;
+}
+.col-md-6.ourWork h1{
+	text-align: start;
+	padding: 0px;
+}
+.ourWork img{
+	 padding: 100px 0px 20px;}
+.col-md-6.our h1{
+	padding: 0px;
+	text-align: start;
+	color: #4cd9ff;
+}
+.col-md-6.ourW h1{
+	padding: 0px;
+	text-align: start;
+	color: #2e5aa8;
+}
+.container.ourWork {
+    padding: 0px 15px 130px;
+}
+.question.col-md-6 img{
+	padding: 0px;}
+.usUs{
+    margin: 0px 15px;}
+.col-md-12.questionPrincipal{
+	display: flex;}
+.col-md-12.questionPrincipal h2{
+    font-size: 25px;
+    padding: 15px 60px;
+}
+.questionPrincipal img{
+	width: 40px;
+    height: 26px;
+    position: relative;
+    left: 30px;
+    top: 9px; 
+}
+.llama{
+	background: #edf3f8;}
+.llama h1 {
+    padding: 0px 90px;
+    color: #2e5aa8;
+    text-align: start;
+    font-size: 38px;
+}
+.llama small {
+    padding: 12px 90px;
+    text-align: start;
+}
+.clean{
+	background: #edf3f8;
+    padding: 50px 350px;
+    display: flex;
+    justify-content: center;
+}
+.row.cleanInfo{
+	text-align: center;}
+.clean h4{
+	font-size: 15px;
+    line-height: 25px;
+    padding: 0px 138px;
+}
+.row.cleanInfo img{
+	width: 300px;}
+.enlaces a {
+    float: right;
+    color: #000;
+    position: relative;
+    bottom: 22px;
+    padding: 1px 8px;
+    text-decoration: none;
+}
+
+div.col-md-6.question {
+    padding: 0px;
+    position: relative;
+    left: 6px;
+}
+img.questionImgSuperior {
+    position: relative;
+    bottom: 112px;
+    left: 5px;
+}
+.colorServPric{
+	background: #edf3f8;
+}
+.contenedorDeImagenes{
+    padding: 0px 93px;
+    bottom: 703px;
+    position: relative;
+    top: 180px;
+}
+.colorServPric h4{
+	text-align: center;
+    padding: 270px 0px 0px;
+    color: #2e5aa8;
+    font-size: 15px;
+}
+.colorServPric h1{
+	text-align: center;
+    padding: 10px 60px 80px;
+}
+.needs{
+    padding: 0px; }
+.row.aboutUs {
+    padding: 150px 0px 0px;
+}
+.aboutUs h4{
+	color: #2e5aa8;
+	font-size: 15px;
+}
+.aboutUs h4,h1{
+	text-align: center;
+    padding: 10px 215px;
+}
+.aboutUs h3{
+    padding: 40px 0px 20px;}
+.aboutUs h2{
+	font-size: 60px;
+	color: #2e5aa8;
+}
+.imgAbout {
+    padding: 60px 0px 0px;}
+.fondoAbout{
+	background: #edf3f8;
+}
+button.btn.btn-primary.buy.now{
+	margin: 40px 0px 60px;}
+button.btn.btn-primary.buy.now:hover{
+    background: #2e5aa8;
+    opacity: 0.5;}
+.col-md-6.fonditoGrisDos img {
+    position: absolute;
+    width: 100%;
+} 
+.col-md-6.fonditoGris img {
+    height: 860px;
+    position: absolute;
+    width: 100%;
+}
+.col-md-6.fonditoGris{
+    padding: 0px;}
+.carousel-indicators {
+   position: absolute;
+    flex-direction: column;
+    display: flex;
+    list-style: none;
+    top: 0;
+    align-items: flex-end;
+    margin: 20px;
+}
+footer.footer {
+    display: flex;}
+.footer{
+    background: #edf3f8;
+    display: flex;
+    padding: 10px 100px;    
+}
+/*media media RESPONSIVEEEEE!*/
+@media (max-width: 1160px)
+{
+    .col-md-6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .row.aboutUs{
+       background: #eef3f9;}
+    .aboutUs h4 {
+        text-align: center;
+        font-size: 12px;
+        bottom: 50px;
+        position: relative;
+        padding: 0px 0px;
+    }
+    .aboutUs h1 {
+        text-align: center;
+        font-size: 25px;
+        bottom: 50px;
+        position: relative;
+        padding: 0px 0px;
+    } 
+    .aboutUs h3 {
+        padding: 10px 0px 0px 35px;
+        font-size: 20px;
+    }
+    .aboutUs h2 {
+        font-size: 40px;
+        color: #2e5aa8;
+        padding: 0px 0px 0px 35px;
+    } 
+    button.btn.btn-primary.buy.now{
+        margin: 20px 0px 50px 35px;
+        font-size: 12px;
+        width: 100px;
+    }
+    .col-md-6.aboutUsSecciones {
+        padding: 10px 0px;
+        flex-direction: column;
+        display: flex;
+        padding: 10px 0px;
+    }
+    .contenidoAbout {
+        margin: 10px 15px;
+        width: 50%;
+        display: -webkit-box;
+        padding: 0px 45px;
+    }
+    .tarjetaPresentacion{
+        display: none;}
+    .espacioCleaner h1{
+        font-size: 28px;}
+    .espacioCleaner p{
+        font-size: 15px;}
+    .row.botonesDeInfo {
+        display: -webkit-inline-box;
+        max-width: 0%;
+    }
+    button.btn.btn-primary.infoA {
+        padding: 10px 19px!important;
+        width: 105px!important;
+        font-size: 12px!important;
+    }
+   button.btn.btn-primary.infoP {
+        padding: 10px 19px!important;
+        width: 105px!important;
+        font-size: 12px!important;
+   }
+   .imgAbout {
+        padding: 0px 0px 0px 35px;
+        width: 83px;
+        height: 50px;
+    }
+     .col-md-6.question{
+        width: 50%;
+        max-width: 50%;
+    }
+    .col-md-6.llama{
+        width: 50%;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 50%;
+    }
+    img.questionImgSuperior {
+    bottom: 80px;}
+    .col-md-12.questionPrincipal h2 {
+            font-size: 18px;}
+    .llama h1{
+        font-size: 25px;}
+    .llama small{
+        padding: 0px 0px 0px 86px;
+        font-size: 11px;
+    }
+    .row.cleanInfo img {
+        width: 220px;}
+    .clean h4 {
+        font-size: 11px;
+        line-height: 20px;
+        padding: 0px 20px;
+    }
+    .footer h6{
+        font-size: 12px;}
+    .footer{
+        font-size: 12px;}
+    .contenidoAbout{
+        padding: 0px 15px 0px 0;}
+    .aboutUsSecurity h3,.imgAboutS {
+    padding: 0px 0px 0px 0px;}
+    .col-md-6.aboutUsSecurity {
+    padding: 0px 10px;}
+    .col-md-6.aboutUsSecurity p{
+    text-align: justify;}
+    .colorServPric h4{
+        font-size: 12px;}
+    .colorServPric h1 {
+        font-size: 25px;}
+    .precioHome h3{
+        font-size: 25px;}
+    .precioBusiness h3{
+        font-size: 25px;}
+    .precioHome h1,img{
+        font-size: 35px;}
+    .precioBusiness h1,img{
+        font-size: 35px;}
+    .precioBusiness img{
+        font-size: 35px;}
+    img.imgAbs{
+        width: 50%!important;}
+    img.brillo {
+        top: 74px;
+        height: 100px;
+        position: relative;
+        width: 100px;
+    }
+    .col-md-6.precioHome {
+        max-width: 50%;
+        padding: 10px;}
+    .col-md-6.precioBusiness {
+        max-width: 50%; 
+        padding: 10px;}
+    .col-md-6.ourW {
+        max-width: 50%;
+        padding: 10px;}
+    .col-md-6.our {
+        max-width: 50%;
+        padding: 10px;}
+}
+@media (max-width: 850px){
+    .precioHome h1{
+        font-size: 25px}
+    .precioBusiness h1{
+        font-size: 25px}
+    .precioHome h3{
+        font-size: 20px;}
+    .precioBusiness h3{
+        font-size: 20px;}
+    .servicesBlue  h1{
+        font-size: 30px;}
+    .servicesBlue p{
+        font-size: 14px;}
+    .servicesMorado h1{
+        font-size: 30px;}
+    .servicesMorado p{
+        font-size: 14px;}
+    .ourWork h4{
+        font-size: 13px;}
+    .ourWork h1{
+        font-size: 28px;}
+    .our h2{
+        font-size: 22px;}
+    .ourW h2{
+        font-size: 22px;}
+    .row.footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer h6{
+        padding: 25px 0px 0px 0px;
+        text-align: center;}
+    .footer a{
+        padding: 25px 0px 0px 0px;}
+    .enlaces{
+        display: flex;
+        justify-content: center;
+        bottom: 30px;
+        position: relative;
+    }
+    .enlaces a{
+        padding: 0px 6px 0px 0px;}
+    .col-md-6.precioHome {
+    max-width: 100%;}
+    .col-md-6.precioBusiness {
+    max-width: 100%;   }  
+}
+@media (max-width: 600px){
+      img.espacioCleaner {
+    width: 90px;
+    margin: 20px 0px 0px;
+
+}
+}
+@media (max-width: 650px){
+    
+
+
+  .col-md-6.ourW {
+    max-width: 100%;
+    padding: 10px;
+    }
+    .col-md-6.ourW {
+    max-width: 100%;
+    padding: 10px;
+    }
+    .contenidoAbout {
+    margin: 15px 15px;
+    width: 100%;
+    display: flex;
+    }  
+}
